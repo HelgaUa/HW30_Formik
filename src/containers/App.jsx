@@ -26,7 +26,6 @@ function App() {
             <h1>Todo-list</h1>
             <Formik>
                 <TodoForm disabled={isLoading} handleUpdateItem={handleUpdateItem} />
-
             </Formik>
             {isLoading ? (
                 <div className="text-center mt-2">
