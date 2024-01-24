@@ -1,0 +1,32 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 20px;
+    background-color: antiquewhite;
+}
+.form,
+.list_component {
+    display: flex;
+    padding: 10px;
+    border: 1px solid;
+    background: #fff;
+    border-radius: 10px;
+}
+.list {
+    margin: 0;
+    padding: 0;
+}
+.list_component {
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.list_component_text {
+    flex-grow: 1;
+    padding-left: 10px;
+    text-align: left;
+}
